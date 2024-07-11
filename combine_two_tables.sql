@@ -1,2 +1,4 @@
-Firstname,Username,Password
-admin,admin1,123456789
+select firstName, lastName, city, state
+from Person p
+left join Address a
+    on p.personId = a.personId;
