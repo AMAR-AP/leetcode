@@ -1,3 +1,4 @@
+#merge 2 sorted array
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode):   
         if not l1 or not l2:
